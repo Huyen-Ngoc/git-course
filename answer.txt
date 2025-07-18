@@ -1,0 +1,14 @@
+a. 
+Câu lệnh cài gmail: git config --global user.name "Ngoc Huyen"
+câu lệnh cài name: git config --global user.mail "nh.huyen1808@gmail.com"
+
+b. setup lại name 
+git config --global user.name "PV-Huyen"
+git config --list
+
+c. commit 
+git init 
+git remote add origin git@github.com:Huyen-Ngoc/git-course.git
+git add . 
+git commit -m "ex2"
+git push origin main
