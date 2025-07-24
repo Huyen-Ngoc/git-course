@@ -1,0 +1,42 @@
+Câu 1 
+- git init là: khởi tạo
+- git add <file name>: đưa file cần commit lên cùng Staging Area
+- git add . là: đưa tất cả các file lên vùng Staging Area
+- git commit -m "message": commit file lên Repository & massage tự ghi 
+
+Câu 2
+a. Tạo 3 file: file1, file2, file3
+- Local: file 1, file 2, file 3
+- Working: 
+- Staging
+- Repository: 
+
+b. Chạy lệnh git init 
+- Local: 
+- Working: file 1, file 2, file 3
+- Staging
+- Repository: 
+
+c. Chạy lệnh git commit -m "init project"
+- Local: 
+- Working: file 1, file 2, file 3
+- Staging:
+- Repository: 
+
+d. Chạy lệnh: git add file1
+- Local: 
+- Working: file 2, file 3
+- Staging: file 1
+- Repository: 
+
+e. Chạy lệnh: git commit -m”add file1”
+- Local: 
+- Working: file 2, file 3
+- Staging: 
+- Repository: file 1
+
+f. Chạy lệnh: git commit -m”add file”
+- Local: 
+- Working: file 2, file 3
+- Staging: 
+- Repository: file 1
